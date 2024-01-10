@@ -1,0 +1,214 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    197deg,
+    rgba(227, 201, 169, 0.75) 0.37%,
+    rgba(255, 207, 150, 0) 80.95%
+  );
+
+  
+box-shadow: 0px 4px 7px 7px rgba(249, 229, 185, 0.25);
+  margin: 0; 
+
+}
+
+ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+ul li {
+  display: inline;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 15px;
+}
+.nav-bar {
+  background-color: rgba(243, 215, 167, 0.912);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* .desing-about{
+    display: inline;
+    font-weight: bold;
+    color: rgb(2, 2, 2);
+    font-size: 15px;
+    margin: 15px;
+} */
+
+.headerpage {
+
+  text-align: start;
+  font-style: bold;
+  font-size: 50px;
+  color: #590202;
+}
+.praghraph-page1 {
+  
+  text-align: start;
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  color: black;
+  width: 100%;
+  margin-top: 15px;
+}
+a {
+  color: black;
+  font-size: bold;
+  text-decoration: none;
+}
+
+
+/* .headerpage{
+    transform: translate(-28%, 38%);
+} */
+
+.title-pragrgh{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 6%;
+  margin-left: 6%;
+
+
+}
+.parent{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: flex-end;
+  
+}
+.image {
+    align-self: flex-end;
+}
+
+.first-image-page1 {
+
+  width: 300px;
+  height: 250px;
+  padding: 0;
+  margin-bottom: 7vh;
+}
+
+/* صفحة تسجيل الدخول  */
+.signuph1{
+    text-align: center; 
+    margin-top: 40px;
+}
+.login{
+  text-align: center;
+  margin-top: 40px;
+}
+
+.click-login{
+  display: flex;
+  justify-content: center; 
+  text-align: center;
+  align-items: center;
+  margin-top: 10px;
+
+}
+.inputClass{
+    margin-top: 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px; */
+
+}
+
+.inputClass input{
+width: 16vw; 
+height: 5vh;
+border:none;
+border-radius: 10px;
+
+}
+
+
+.inputClassBtn{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+.inputClassBtn input{
+    background-color: #5fb24e;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+}
+.babyImage{
+    text-align: center;
+}
+
+/*نهاية حق الدخول */
+
+/* Service دبداية صفحة الخدمات*/
+.serviceParent{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.serviceParent div input{
+width: 20vw;
+height: 5vh;
+  border-radius: 10px;
+}
+.myImage{
+  width:15vw;
+  height: 40vh;
+
+}
+.myImage img{
+  width: 100%;
+  height: 100%;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10vh;
+  margin-top: 10vh;
+  margin: 6%;
+}
+.child-card{
+  width: 22vw;
+  height: 30vh;
+  border: 1px solid rgb(220, 188, 150);
+  box-shadow: 3px 2px 4px 0px #e48951;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 7px;
+
+
+}
+
+.image-card{
+  width:10vw;
+  height: 18vh;
+}
+.image-card img{
+  width: 100%;
+  height: 100%;
+  
+}
