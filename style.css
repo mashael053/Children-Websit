@@ -48,13 +48,14 @@ ul li {
   text-align: start;
   font-style: bold;
   font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #590202;
 }
 .praghraph-page1 {
   
   text-align: start;
   color: #000;
-  font-family: Inter;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 40px;
   color: black;
   width: 100%;
@@ -211,4 +212,24 @@ height: 5vh;
   width: 100%;
   height: 100%;
   
+}
+.service-provied{
+display: flex;
+flex-direction: column;
+gap:10px;
+justify-content: space-between;
+align-items: center
+}
+
+.header-Services{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #590202;
+    font-size: 3vw;
+}
+
+.pargraghServices{
+    font-family: 'Times New Roman', Times, serif;
+
+    color: #000000;
+    font-size: 3vw;
 }
